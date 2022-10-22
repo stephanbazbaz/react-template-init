@@ -11,7 +11,7 @@
       },
       "path": "src/components",
       "withStyle": true,
-      "withTest": false,
+      "withTest": true,
       "withIndex": true,
       "withStory": false,
       "withLazy": false
@@ -23,7 +23,7 @@
       },
       "path": "src/components/common",
       "withStyle": true,
-      "withTest": false,
+      "withTest": true,
       "withIndex": true,
       "withStory": false,
       "withLazy": false
