@@ -1,8 +1,8 @@
 import './App.scss';
 
-function App() {
+const App = () => {
   return (
-    <div className="App" data>
+    <div className="App">
       <h1>APP</h1>
     </div>
   );
