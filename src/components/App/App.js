@@ -1,10 +1,20 @@
 import './App.scss';
-
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from "react-router-dom";
 const App = () => {
   return (
-    <div className="App">
-      <h1>APP</h1>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={
+          <div className="App">
+            <h1>APP</h1>
+          </div>} />
+      </Routes>
+    </BrowserRouter>
+
   );
 }
 
